@@ -1,21 +1,37 @@
-# WAF-Bypass-XSS-Payloads
+# XSS Payload Collection
 
- مجموعة من باي لودات XSS المستخدمة لتجاوز أنظمة Web Application Firewall (WAF) زي Cloudflare, Akamai, Imperva, وغيرها.
+## Description
 
-**ملاحظات:**
-- بعض الباي لودات قد لا تكون فعالة في كل مكان، ولكنها نجحت في تجاوز WAF معين في حالة معينة.
-- بعض الحمايات قد تكون حدثت نفسها، فدائمًا جرّب يدويًا.
-- هدف الريبو تعليمي واختباري فقط.
+This repository contains a collection of XSS payloads designed to bypass various Web Application Firewalls (WAFs). The security solutions included are Imperva Cloud, CloudFront, Akamai, among others. The payloads are organized by the type of WAF they are intended to evade, making it easier to use them in specific tests.
 
-##  Payloads
+## Objective
 
-- [Cloudflare XSS Payloads](cloudflare-xss.md)
-- [Akamai XSS Payloads](akamai-xss.md)
-- [Imperva XSS Payloads](imperva-xss.md)
-- [Incapsula XSS Payloads](incapsula-xss.md)
-- [Cloudfront XSS Payloads](cloudfront-xss.md)
-- [WordFence XSS Payloads](wordfence-xss.md)
+The objective of this repository is to provide security researchers and cybersecurity professionals with a valuable tool to:
 
- المساهمة
-لو عندك باي لود فعال، اعمله Pull Request أو افتح Issue.
+- Test the effectiveness of different WAFs.
+- Identify potential vulnerabilities in protection systems.
+- Enhance the security measures of web applications through thorough testing.
+
+## Warning
+
+**This repository is intended for research and educational purposes only.** Using these payloads on web applications without explicit consent from their owners is illegal and ethically reprehensible. Ensure you have proper authorization before conducting any tests.
+
+## Repository Content
+
+- **Payloads by WAF Type**: Payloads are organized according to the WAF they are designed to bypass.
+  - **Imperva Cloud**
+  - **CloudFront**
+  - **Akamai**
+  - **Other WAFs**
+
+## Usage of Payloads
+
+1. Select the payload corresponding to the WAF you want to test.
+2. Ensure you have authorization to perform tests in the selected environment.
+3. Execute the payloads in a controlled and monitored environment.
+4. Analyze the results and document any vulnerabilities found.
+
+---
+
+**Disclaimer**: The improper use of these payloads can cause damage to systems and networks. The authors and contributors of this repository are not responsible for the misuse of the information contained herein.
 
